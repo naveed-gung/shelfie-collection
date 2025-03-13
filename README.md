@@ -86,8 +86,8 @@ This project can be easily deployed to Netlify:
 1. Push your code to GitHub
 2. Connect your repository to Netlify
 3. Configure build settings:
-   - Build command: \`npm run build\`
-   - Publish directory: \`dist\`
+   - Build command: ```npm run build```
+   - Publish directory: ```dist```
 4. Add your environment variables in Netlify's dashboard
 
 ## 🤝 Contributing
