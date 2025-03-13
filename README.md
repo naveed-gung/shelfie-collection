@@ -84,20 +84,19 @@ npm run build
 This project can be easily deployed to Netlify:
 
 1. Push your code to GitHub
-2. Connect your repository to Netlify
+2. Connect your repository to Netlify/Vercel
 3. Configure build settings:
    - Build command: ```npm run build```
    - Publish directory: ```dist```
-4. Add your environment variables in Netlify's dashboard
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the project
-2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
-4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+2. Create your feature branch (```git checkout -b feature/AmazingFeature```)
+3. Commit your changes (```git commit -m 'Add some AmazingFeature'```)
+4. Push to the branch (```git push origin feature/AmazingFeature```)
 5. Open a Pull Request
 
 Made by [Naveed](https://github.com/naveed-gung)
