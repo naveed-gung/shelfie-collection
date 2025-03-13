@@ -43,18 +43,18 @@ A modern, feature-rich book collection management application built with React, 
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone https://github.com/naveed-gung/shelfie-collection.git
 cd shelfie-collection
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Create a .env file in the root directory:
-\`\`\`env
+```env
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
 VITE_FIREBASE_PROJECT_ID=your_project_id
@@ -62,22 +62,22 @@ VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
-\`\`\`
+```
 
 4. Start the development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
-Visit \`http://localhost:5173\` to see the app running.
+Visit `http://localhost:5173` to see the app running.
 
 ## 📦 Build
 
 To build for production:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ## 🌐 Deployment
 
@@ -100,16 +100,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (\`git push origin feature/AmazingFeature\`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
-- [Lucide Icons](https://lucide.dev/) for the icons
-- [Firebase](https://firebase.google.com/) for the backend services
-
----
-
-Made with ❤️ by [Naveed](https://github.com/naveed-gung)
+Made by [Naveed](https://github.com/naveed-gung)
