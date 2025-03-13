@@ -1,69 +1,115 @@
-# Welcome to your Lovable project
+# 📚 Shelfie Collection
 
-## Project info
+A modern, feature-rich book collection management application built with React, Firebase, and Framer Motion. Keep track of your books, manage your reading list, and organize your personal library with style.
 
-**URL**: https://lovable.dev/projects/e867cc21-2eca-4886-a620-178ea97c46a0
+![Shelfie Collection Banner](public/og-image.png)
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- 📱 **Responsive Design**: Beautiful interface that works on desktop and mobile
+- 🌓 **Dark/Light Mode**: Easy on the eyes, day or night
+- 📚 **Book Management**:
+  - Add, edit, and delete books
+  - Upload book covers
+  - Track reading status
+  - Rate and review books
+- 🔍 **Advanced Filtering**:
+  - Search by title, author, or genre
+  - Filter by reading status
+  - Sort by various criteria
+- ⚡ **Real-time Updates**: Changes sync instantly with Firebase
+- 🎨 **Beautiful Animations**: Smooth transitions powered by Framer Motion
+- 🏷️ **Genre Tagging**: Organize books by multiple genres
+- 📊 **Reading Progress**: Track your reading journey
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e867cc21-2eca-4886-a620-178ea97c46a0) and start prompting.
+- [React](https://reactjs.org/) - UI Framework
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Firebase](https://firebase.google.com/) - Backend & Database
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI Components
+- [Framer Motion](https://www.framer.com/motion/) - Animations
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v16 or higher)
+- npm or yarn
+- Firebase account
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/naveed-gung/shelfie-collection.git
+cd shelfie-collection
+\`\`\`
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Create a .env file in the root directory:
+\`\`\`env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+\`\`\`
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server:
+\`\`\`bash
 npm run dev
-```
+\`\`\`
 
-**Edit a file directly in GitHub**
+Visit \`http://localhost:5173\` to see the app running.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Build
 
-**Use GitHub Codespaces**
+To build for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+\`\`\`bash
+npm run build
+\`\`\`
 
-## What technologies are used for this project?
+## 🌐 Deployment
 
-This project is built with .
+This project can be easily deployed to Netlify:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Push your code to GitHub
+2. Connect your repository to Netlify
+3. Configure build settings:
+   - Build command: \`npm run build\`
+   - Publish directory: \`dist\`
+4. Add your environment variables in Netlify's dashboard
 
-## How can I deploy this project?
+## 🤝 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/e867cc21-2eca-4886-a620-178ea97c46a0) and click on Share -> Publish.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## I want to use a custom domain - is that possible?
+1. Fork the project
+2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
+3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
+4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+5. Open a Pull Request
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+- [Lucide Icons](https://lucide.dev/) for the icons
+- [Firebase](https://firebase.google.com/) for the backend services
+
+---
+
+Made with ❤️ by [Naveed](https://github.com/naveed-gung)
